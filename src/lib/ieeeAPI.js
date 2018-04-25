@@ -5,7 +5,7 @@ const httpOptions = {
 };
 
 // API Helper methods
-const abstractUrl = 'http://ieeexploreapi.ieee.org/api/v1/search/articles';
+const abstractUrl = 'https://ieeexploreapi.ieee.org/api/v1/search/articles';
 
 const parseSearchUrl = (query) => {
 

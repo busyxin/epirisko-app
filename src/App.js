@@ -25,7 +25,7 @@ class App extends Component {
         articles: result
       })
     })
-    .catch(alert)
+    .catch(console.error)
   }
 
   renderHome = (props) => {
