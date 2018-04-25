@@ -1,3 +1,47 @@
+# Epirisko
+Try the DEMO [here](https://epirisko-app.herokuapp.com/).
+
+An online research article writing platform. You can use Epirisko to write and publish research articles in an easier and more user friendly way. You are able to search for references in the IEEE digital library and save them to a new article project. Then you can immediately start writing your new article and just drag & drop your saved references into the document.
+
+## Done
+
+- Project setup
+    - React.js
+- Views
+    - Article search
+    - Article list
+- API integration
+    - IEEE Xplore API
+
+## To do
+- Drag & Drop for references
+- Saving references from the articles
+- Persisting data
+- Article writing view with a Markdown component
+
+## Project file structure:
+```
+src/components/
+├── Header.js
+├── SearchForm.js
+└── Sidebar.js
+
+src/views/
+├── Article.js
+├── Home.js
+└── Search.js
+
+src/lib/
+├── ieeeAPI.js
+
+``` 
+
+Every component and view exports a regular React component.
+
+The ```ieeeAPI.js``` exports the defition about how the API works.
+
+------
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
