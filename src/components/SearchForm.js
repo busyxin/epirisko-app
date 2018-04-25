@@ -12,14 +12,13 @@ class SearchForm extends Component {
   }
 
   handleSubmit = (event) => {
-    alert('Search was submitted: ' + this.state.value);
-    this.props.handleSubmit(this.state.value)
     event.preventDefault();
+    this.props.handleSubmit(this.state.value)
   }
 
   render() {
     return (
-      <form className="search-form" onSubmit={this.props.handleSubmit}>
+      <form className="search-form" onSubmit={this.handleSubmit}>
         <input className="search-form__input" type="text" value={this.props.value} onChange={this.handleChange} />
         <input className="search-form__submit" type="submit" value="Submit" />
       </form>
