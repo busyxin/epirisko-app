@@ -1,0 +1,38 @@
+.search-form {
+  align-self: center;
+}
+
+.search-form__input {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 2em;
+  height: 2em;
+  max-width: 200px;
+  padding: 0 1em;
+  outline: none;
+  font-size: 14px;
+  margin-right: .5rem;
+  transition: all .3s ease;
+}
+
+.search-form__input:focus {
+  max-width: 400px;
+}
+
+.search-form__submit {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 2em;
+  height: 2em;
+  padding: 0 1em;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.search-form__submit:hover {
+  background: white;
+  color: #495061;
+}

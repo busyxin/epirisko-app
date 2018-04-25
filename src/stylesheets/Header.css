@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  background-color: #495061;
+}
+
+.header-container {
+  max-width: 1200px;
+  flex: 1 0 auto;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+}

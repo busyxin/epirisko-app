@@ -1,0 +1,21 @@
+.sidebar {
+  display: flex;
+}
+
+.sidebar-user {
+  align-self: center;
+  display: flex;
+  color: white;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar-user__icon {
+  width: 32px;
+  height: 32px;
+  margin-right: .5rem;
+}
+
+.sidebar-user:hover .sidebar-user__name {
+  border-bottom: 1px solid #ffffff;
+}
