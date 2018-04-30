@@ -1,6 +1,6 @@
 # Epirisko
 Try the DEMO [here](https://epirisko-app.herokuapp.com/).
-- Tip: Search for the test API call.
+- Disclaimer: We noticed too late that the API we wanted to use can not be queried through HTTPS and it's therefore unusable. So even though a test API call is implemented, when searching in the demo only an Error gets logged and not the example data.
 
 An online research article writing platform. You can use Epirisko to write and publish research articles in an easier and more user friendly way. You are able to search for references in the IEEE digital library and save them to a new article project. Then you can immediately start writing your new article and just drag & drop your saved references into the document.
 
